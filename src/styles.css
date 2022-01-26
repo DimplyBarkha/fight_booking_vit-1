@@ -872,6 +872,8 @@ margin-top: 10px;
   padding-right: 3px;
   padding-left: 3px;
 }
-
+.flights-icon {
+  top: 33px !important;
+}
 
 }
