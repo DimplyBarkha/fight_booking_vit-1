@@ -570,7 +570,7 @@ display: flex;
     width: 16px;
     right: 0px;
     margin: auto;
-    top: 22px;
+    top: 24px;
     bottom: 0px;
     color: rgb(223, 223, 223);
     transform: scaleX(1);
@@ -580,20 +580,20 @@ display: flex;
   width: 16px;
   right: 0px;
   margin: auto;
-  top: 22px;
+  top: 24px;
   bottom: 0px;
   color: rgb(223, 223, 223);
   transform: scaleX(-1);
 }
 .box1 {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.5;
   color: rgb(58, 58, 58);
   display: inline-grid;
   text-align: left;
 }
 .box2{
-    font-size: 13px;
+    font-size: 18px;
     font-weight: bold;
     letter-spacing: 0.2px;
     color: rgb(58, 58, 58);
@@ -770,10 +770,13 @@ margin-top: 10px;
   background: linear-gradient(to right, rgb(35, 165, 185), rgb(35, 165, 185)) rgb(35, 165, 185);
   border-color: rgb(35, 165, 185);
   margin-left: auto;
-    padding: 0px 9px;
+    padding: 4px 12px;
   
     align-self: center;
     font-weight: 600;
+    margin-top: 7px;
+    border-radius: 2px;
+
 }
 
 
@@ -851,4 +854,24 @@ margin-top: 10px;
 {
   .webView{display: none !important;}
   .mobileView{display: block !important;overflow: auto;width: 100%}
+
+  .btn-rd-1 {
+    border: 1.5px solid white;
+    background: white;
+    box-shadow: rgb(0 0 0 / 10%) 0px 1.5px 8px 0px;
+    color: rgb(2, 100, 122);
+    font-weight: 600;
+    border-radius: 16px;
+    padding: 0px 6px !important;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 12px !important;
+}
+
+.row{
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+
 }
