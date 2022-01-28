@@ -78,8 +78,8 @@ export class ContentComponent implements OnInit, OnDestroy {
 
     this.load();
     this.interval = setInterval(() => {
-     // this.load(false);
-     // this.getCalender(this.localUserIds)
+     this.load(false);
+     this.getCalender(this.localUserIds)
 
     }, 15000);
 
