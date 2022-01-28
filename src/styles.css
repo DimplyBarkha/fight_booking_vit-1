@@ -849,7 +849,6 @@ margin-top: 10px;
 .webView{display:block  !important;}
 .mobileView{display: none!important;}
 
-
 @media screen and (min-device-width: 320px) and (max-device-width: 580px)
 {
   .webView{display: none !important;}
